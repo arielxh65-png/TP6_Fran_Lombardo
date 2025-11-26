@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Formularios</title>
+    <link rel="stylesheet" href="statics/styles.css">
+    <script src="js/script_bienvenida.js" defer></script>
+</head>
+
+<body>
+    <!-- Menú hamburguesa (global) -->
+    <div class="hamburger-menu">
+        <label for="toggle" class="hamburger">☰</label>
+    </div>
+    <input type="checkbox" id="toggle">
+    <div class="slide-menu">
+        <a href="index.html">Inicio</a>
+        <a href="templates/multimedia1.html">Multimedia 1</a>
+        <a href="templates/multimedia2.html">Multimedia 2</a>
+        <a href="templates/multimedia3.html">Multimedia 3</a>
+        <a href="templates/menu1.html">Menú 1</a>
+        <a href="templates/menu2.html">Menú 2</a>
+        <a href="templates/menu3.html">Menú 3</a>
+    </div>
+
+    <div class="container">
+        <h1 class="titulo">Proyecto de Formularios y Multimedia</h1>
+        <p class="descripcion">Explora las diferentes secciones del proyecto.</p>
+
+        <!-- Mensaje de bienvenida -->
+        <div id="bienvenida" class="bienvenida"></div>
+
+        <!-- Mega menú con los 3 botones -->
+        <nav class="mega-menu">
+            <ul>
+                <li class="menu-item">
+                    Multimedia ▼
+                    <div class="mega-content">
+                        <a href="templates/multimedia1.html">Multimedia 1</a>
+                        <a href="templates/multimedia2.html">Multimedia 2</a>
+                        <a href="templates/multimedia3.html">Multimedia 3</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    Menús ▼
+                    <div class="mega-content">
+                        <a href="templates/menu1.html">Menú 1</a>
+                        <a href="templates/menu2.html">Menú 2</a>
+                        <a href="templates/menu3.html">Menú 3</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>
